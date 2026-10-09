@@ -43,3 +43,31 @@ def check_weight_violation(placed_vehicles, max_capacity):
     # mengecek apakah total berat kendaraan yang masuk ke dalam kapal melebihi berat maksimum kapal
     total_weight = sum(v['Weight'] for v in placed_vehicles)
     return max(0, total_weight - max_capacity)
+
+def objective_function(state, ship):
+    # state: daftar kendaraan apa saja yg masuk ke dalam kapal 
+    # sudah termasuk koordinat (x, y) dan orientasi horizontal atau vertikalnya
+
+    placed_vehicles = state['placed_vehicles']
+    
+    # 1. menghitung total keuntungan dari shipping fee
+    total_fee = sum(v['ShippingFee'] for v in placed_vehicles)
+    
+    # 2. menghitung penalti ketika melanggar constraints
+    penalty = 0
+    
+    # penambahan penalti ketika terjadi overlap
+    if check_overlap(placed_vehicles):
+        penalty += 10000
+        
+    # penambahan penalti ketika ada kendaraan melewati batas kapal
+    if check_boundary_violation(placed_vehicles, ship['Dimensions']):
+        penalty += 10000
+        
+    # penambahan penalti ketika total berat melebihi berat maksimum kapal
+    weight_overflow = check_weight_violation(placed_vehicles, ship['MaxCapacity'])
+    if weight_overflow > 0:
+        penalty += weight_overflow * 1000
+        
+    # nilai objective function yang di-return adalah total keuntungan dikurangi penalti
+    return total_fee - penalty
