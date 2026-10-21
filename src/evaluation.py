@@ -43,34 +43,33 @@ def check_weight_violation(placed_vehicles, max_capacity):
     return max(0, total_weight - max_capacity)
 
 def objective_function(state, ship):
-
     placed_vehicles = state['placed_vehicles']
 
-    total_fee = sum(v['ShippingFee'] for v in placed_vehicles)
-
-    penalty = 0
-
     if check_overlap(placed_vehicles):
-        penalty += 10000
+        return -1
 
     if check_boundary_violation(placed_vehicles, ship['Dimensions']):
-        penalty += 10000
+        return -1
 
-    weight_overflow = check_weight_violation(placed_vehicles, ship['MaxCapacity'])
-    if weight_overflow > 0:
-        penalty += weight_overflow * 1000
+    if check_weight_violation(placed_vehicles, ship['MaxCapacity']) > 0:
+        return -1
 
-    return total_fee - penalty
+    return sum(v['ShippingFee'] for v in placed_vehicles)
+
+
 
 ORIENTATIONS = ("Horizontal", "Vertical")
+
 
 def get_size(vehicle, orientation):
     w, l = vehicle["Dimensions"]["w"], vehicle["Dimensions"]["l"]
     return (w, l) if orientation == "Horizontal" else (l, w)
 
+
 def fits(vehicle, orientation, ship):
     size_x, size_y = get_size(vehicle, orientation)
     return size_x <= ship["Dimensions"]["w"] and size_y <= ship["Dimensions"]["l"]
+
 
 def random_position(vehicle, orientation, ship):
     size_x, size_y = get_size(vehicle, orientation)
@@ -78,12 +77,14 @@ def random_position(vehicle, orientation, ship):
     y = random.randint(0, ship["Dimensions"]["l"] - size_y)
     return x, y
 
+
 def clamp_placement(placement, vehicle, ship):
     if not fits(vehicle, placement["Orientation"], ship):
         placement["Orientation"] = "Vertical" if placement["Orientation"] == "Horizontal" else "Horizontal"
     size_x, size_y = get_size(vehicle, placement["Orientation"])
     placement["x"] = min(max(0, placement["x"]), ship["Dimensions"]["w"] - size_x)
     placement["y"] = min(max(0, placement["y"]), ship["Dimensions"]["l"] - size_y)
+
 
 def generate_random_state(vehicles, ship, p_inside=0.5):
     state = []
@@ -100,6 +101,7 @@ def generate_random_state(vehicles, ship, p_inside=0.5):
         })
     return state
 
+
 def decode_state(state, vehicles):
     placed, outside = [], []
     for placement, v in zip(state, vehicles):
@@ -113,6 +115,7 @@ def decode_state(state, vehicles):
             outside.append(copy.deepcopy(v))
     return {"placed_vehicles": placed, "outside_vehicles": outside}
 
+
 def evaluate_state(state, vehicles, ship):
     return objective_function(decode_state(state, vehicles), ship)
 
@@ -124,6 +127,7 @@ def swap_vehicles(state, i, j, vehicles, ship):
     clamp_placement(a, vehicles[i], ship)
     clamp_placement(b, vehicles[j], ship)
 
+
 def move_vehicle(state, i, vehicles, ship, p_out=0.2):
     placement = state[i]
     if placement["inside"] and random.random() < p_out:
@@ -131,6 +135,7 @@ def move_vehicle(state, i, vehicles, ship, p_out=0.2):
         return
     placement["inside"] = True
     placement["x"], placement["y"] = random_position(vehicles[i], placement["Orientation"], ship)
+
 
 def rotate_vehicle(state, i, vehicles, ship):
     placement = state[i]
@@ -152,6 +157,7 @@ def random_neighbor(state, vehicles, ship):
     else:
         move_vehicle(neighbor, i, vehicles, ship)
     return neighbor
+
 
 def all_neighbors(state, vehicles, ship):
     neighbors = []
@@ -188,6 +194,7 @@ def all_neighbors(state, vehicles, ship):
                 neighbors.append(neighbor)
 
     return neighbors
+
 
 def best_neighbor(state, vehicles, ship):
     best_value = float("-inf")
