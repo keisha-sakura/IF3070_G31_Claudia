@@ -49,7 +49,10 @@ def simulated_annealing(vehicles, ship, T_awal, cooling_rate, max_iterasti, stuc
         exp_value = None
 
         if neighbor_value != -1:
-            exp_value = math.exp((neighbor_value - current_value) / T)
+            try:
+                exp_value = math.exp((neighbor_value - current_value) / T)
+            except OverflowError:
+                exp_value = None
 
             if neighbor_value < current_value:
                 peluang = exp_value
