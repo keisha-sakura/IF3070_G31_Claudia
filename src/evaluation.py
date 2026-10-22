@@ -43,24 +43,20 @@ def check_weight_violation(placed_vehicles, max_capacity):
     return max(0, total_weight - max_capacity)
 
 def objective_function(state, ship):
-
     placed_vehicles = state['placed_vehicles']
 
-    total_fee = sum(v['ShippingFee'] for v in placed_vehicles)
-
-    penalty = 0
-
     if check_overlap(placed_vehicles):
-        penalty += 10000
+        return -1
 
     if check_boundary_violation(placed_vehicles, ship['Dimensions']):
-        penalty += 10000
+        return -1
 
-    weight_overflow = check_weight_violation(placed_vehicles, ship['MaxCapacity'])
-    if weight_overflow > 0:
-        penalty += weight_overflow * 1000
+    if check_weight_violation(placed_vehicles, ship['MaxCapacity']) > 0:
+        return -1
 
-    return total_fee - penalty
+    return sum(v['ShippingFee'] for v in placed_vehicles)
+
+
 
 ORIENTATIONS = ("Horizontal", "Vertical")
 
