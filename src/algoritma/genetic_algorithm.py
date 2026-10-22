@@ -48,12 +48,12 @@ def crossover(x, y):
 
 
 def mutation(child, vehicles, ship):
-    mutating_vehicle = random.randint(1, len(child))
-    mutate = random.choices(['swap','rotate','move'])
+    mutating_vehicle = random.randint(0, len(child) - 1)
+    mutate = random.choice(['swap', 'rotate', 'move'])
     if mutate == 'swap':
-        j = random.choices([k for k in (len(child)) if k != mutating_vehicle])
+        j = random.choice([k for k in range(len(child)) if k != mutating_vehicle])
         swap_vehicles(child, mutating_vehicle, j, vehicles, ship)
-    elif mutate == 'rotate':
+    elif mutate == 'rotate' and child[mutating_vehicle]['inside']:
         rotate_vehicle(child, mutating_vehicle, vehicles, ship)
     else:
         move_vehicle(child, mutating_vehicle, vehicles, ship)
