@@ -1,0 +1,30 @@
+============================================================
+STEEPEST ASCENT HILL CLIMBING
+============================================================
+Initial fitness: -1
+Max iterations : 300
+
+Iteration       : 1
+Current fitness : -1
+Best neighbor   : -1
+Decision        : STOP, no improvement
+
+============================================================
+HASIL AKHIR
+============================================================
+Initial fitness : -1
+Final fitness   : -1
+Iterations      : 1
+Duration        : 0.125235 seconds
+Vehicles loaded : 8
+Vehicles outside: 2
+
+Kendaraan yang dimuat:
+- Vehicle: x=1, y=16, orientation=Vertical, fee=60
+- Vehicle: x=0, y=4, orientation=Horizontal, fee=40
+- Vehicle: x=3, y=0, orientation=Horizontal, fee=85
+- Vehicle: x=5, y=17, orientation=Vertical, fee=50
+- Vehicle: x=4, y=9, orientation=Horizontal, fee=20
+- Vehicle: x=0, y=17, orientation=Vertical, fee=70
+- Vehicle: x=3, y=12, orientation=Horizontal, fee=30
+- Vehicle: x=4, y=6, orientation=Vertical, fee=75

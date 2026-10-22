@@ -1,0 +1,1527 @@
+============================================================
+STOCHASTIC HILL CLIMBING
+============================================================
+Initial fitness: -1
+Max iterations : 300
+
+Iteration       : 1
+Current fitness : -1
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 2
+Current fitness : -1
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 3
+Current fitness : -1
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 4
+Current fitness : -1
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 5
+Current fitness : -1
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 6
+Current fitness : -1
+Random neighbor : 195
+Decision        : MOVE to random neighbor
+
+Iteration       : 7
+Current fitness : 195
+Random neighbor : 195
+Decision        : STAY, no improvement
+
+Iteration       : 8
+Current fitness : 195
+Random neighbor : 235
+Decision        : MOVE to random neighbor
+
+Iteration       : 9
+Current fitness : 235
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 10
+Current fitness : 235
+Random neighbor : 235
+Decision        : STAY, no improvement
+
+Iteration       : 11
+Current fitness : 235
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 12
+Current fitness : 235
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 13
+Current fitness : 235
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 14
+Current fitness : 235
+Random neighbor : 235
+Decision        : STAY, no improvement
+
+Iteration       : 15
+Current fitness : 235
+Random neighbor : 235
+Decision        : STAY, no improvement
+
+Iteration       : 16
+Current fitness : 235
+Random neighbor : 235
+Decision        : STAY, no improvement
+
+Iteration       : 17
+Current fitness : 235
+Random neighbor : 305
+Decision        : MOVE to random neighbor
+
+Iteration       : 18
+Current fitness : 305
+Random neighbor : 320
+Decision        : MOVE to random neighbor
+
+Iteration       : 19
+Current fitness : 320
+Random neighbor : 300
+Decision        : STAY, no improvement
+
+Iteration       : 20
+Current fitness : 320
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 21
+Current fitness : 320
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 22
+Current fitness : 320
+Random neighbor : 320
+Decision        : STAY, no improvement
+
+Iteration       : 23
+Current fitness : 320
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 24
+Current fitness : 320
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 25
+Current fitness : 320
+Random neighbor : 280
+Decision        : STAY, no improvement
+
+Iteration       : 26
+Current fitness : 320
+Random neighbor : 365
+Decision        : MOVE to random neighbor
+
+Iteration       : 27
+Current fitness : 365
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 28
+Current fitness : 365
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 29
+Current fitness : 365
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 30
+Current fitness : 365
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 31
+Current fitness : 365
+Random neighbor : 365
+Decision        : STAY, no improvement
+
+Iteration       : 32
+Current fitness : 365
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 33
+Current fitness : 365
+Random neighbor : 365
+Decision        : STAY, no improvement
+
+Iteration       : 34
+Current fitness : 365
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 35
+Current fitness : 365
+Random neighbor : 365
+Decision        : STAY, no improvement
+
+Iteration       : 36
+Current fitness : 365
+Random neighbor : 405
+Decision        : MOVE to random neighbor
+
+Iteration       : 37
+Current fitness : 405
+Random neighbor : 425
+Decision        : MOVE to random neighbor
+
+Iteration       : 38
+Current fitness : 425
+Random neighbor : 435
+Decision        : MOVE to random neighbor
+
+Iteration       : 39
+Current fitness : 435
+Random neighbor : 435
+Decision        : STAY, no improvement
+
+Iteration       : 40
+Current fitness : 435
+Random neighbor : 435
+Decision        : STAY, no improvement
+
+Iteration       : 41
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 42
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 43
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 44
+Current fitness : 435
+Random neighbor : 435
+Decision        : STAY, no improvement
+
+Iteration       : 45
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 46
+Current fitness : 435
+Random neighbor : 390
+Decision        : STAY, no improvement
+
+Iteration       : 47
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 48
+Current fitness : 435
+Random neighbor : 360
+Decision        : STAY, no improvement
+
+Iteration       : 49
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 50
+Current fitness : 435
+Random neighbor : 435
+Decision        : STAY, no improvement
+
+Iteration       : 51
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 52
+Current fitness : 435
+Random neighbor : 375
+Decision        : STAY, no improvement
+
+Iteration       : 53
+Current fitness : 435
+Random neighbor : 435
+Decision        : STAY, no improvement
+
+Iteration       : 54
+Current fitness : 435
+Random neighbor : 435
+Decision        : STAY, no improvement
+
+Iteration       : 55
+Current fitness : 435
+Random neighbor : 435
+Decision        : STAY, no improvement
+
+Iteration       : 56
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 57
+Current fitness : 435
+Random neighbor : 435
+Decision        : STAY, no improvement
+
+Iteration       : 58
+Current fitness : 435
+Random neighbor : 425
+Decision        : STAY, no improvement
+
+Iteration       : 59
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 60
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 61
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 62
+Current fitness : 435
+Random neighbor : 435
+Decision        : STAY, no improvement
+
+Iteration       : 63
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 64
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 65
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 66
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 67
+Current fitness : 435
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 68
+Current fitness : 435
+Random neighbor : 435
+Decision        : STAY, no improvement
+
+Iteration       : 69
+Current fitness : 435
+Random neighbor : 460
+Decision        : MOVE to random neighbor
+
+Iteration       : 70
+Current fitness : 460
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 71
+Current fitness : 460
+Random neighbor : 500
+Decision        : MOVE to random neighbor
+
+Iteration       : 72
+Current fitness : 500
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 73
+Current fitness : 500
+Random neighbor : 500
+Decision        : STAY, no improvement
+
+Iteration       : 74
+Current fitness : 500
+Random neighbor : 455
+Decision        : STAY, no improvement
+
+Iteration       : 75
+Current fitness : 500
+Random neighbor : 500
+Decision        : STAY, no improvement
+
+Iteration       : 76
+Current fitness : 500
+Random neighbor : 520
+Decision        : MOVE to random neighbor
+
+Iteration       : 77
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 78
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 79
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 80
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 81
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 82
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 83
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 84
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 85
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 86
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 87
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 88
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 89
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 90
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 91
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 92
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 93
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 94
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 95
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 96
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 97
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 98
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 99
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 100
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 101
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 102
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 103
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 104
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 105
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 106
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 107
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 108
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 109
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 110
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 111
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 112
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 113
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 114
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 115
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 116
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 117
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 118
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 119
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 120
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 121
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 122
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 123
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 124
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 125
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 126
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 127
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 128
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 129
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 130
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 131
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 132
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 133
+Current fitness : 520
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 134
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 135
+Current fitness : 520
+Random neighbor : 470
+Decision        : STAY, no improvement
+
+Iteration       : 136
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 137
+Current fitness : 520
+Random neighbor : 520
+Decision        : STAY, no improvement
+
+Iteration       : 138
+Current fitness : 520
+Random neighbor : 550
+Decision        : MOVE to random neighbor
+
+Iteration       : 139
+Current fitness : 550
+Random neighbor : 550
+Decision        : STAY, no improvement
+
+Iteration       : 140
+Current fitness : 550
+Random neighbor : 550
+Decision        : STAY, no improvement
+
+Iteration       : 141
+Current fitness : 550
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 142
+Current fitness : 550
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 143
+Current fitness : 550
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 144
+Current fitness : 550
+Random neighbor : 550
+Decision        : STAY, no improvement
+
+Iteration       : 145
+Current fitness : 550
+Random neighbor : 560
+Decision        : MOVE to random neighbor
+
+Iteration       : 146
+Current fitness : 560
+Random neighbor : 560
+Decision        : STAY, no improvement
+
+Iteration       : 147
+Current fitness : 560
+Random neighbor : 590
+Decision        : MOVE to random neighbor
+
+Iteration       : 148
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 149
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 150
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 151
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 152
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 153
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 154
+Current fitness : 590
+Random neighbor : 540
+Decision        : STAY, no improvement
+
+Iteration       : 155
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 156
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 157
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 158
+Current fitness : 590
+Random neighbor : 560
+Decision        : STAY, no improvement
+
+Iteration       : 159
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 160
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 161
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 162
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 163
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 164
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 165
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 166
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 167
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 168
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 169
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 170
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 171
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 172
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 173
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 174
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 175
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 176
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 177
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 178
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 179
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 180
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 181
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 182
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 183
+Current fitness : 590
+Random neighbor : 540
+Decision        : STAY, no improvement
+
+Iteration       : 184
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 185
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 186
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 187
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 188
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 189
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 190
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 191
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 192
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 193
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 194
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 195
+Current fitness : 590
+Random neighbor : 540
+Decision        : STAY, no improvement
+
+Iteration       : 196
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 197
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 198
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 199
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 200
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 201
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 202
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 203
+Current fitness : 590
+Random neighbor : 560
+Decision        : STAY, no improvement
+
+Iteration       : 204
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 205
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 206
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 207
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 208
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 209
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 210
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 211
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 212
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 213
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 214
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 215
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 216
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 217
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 218
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 219
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 220
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 221
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 222
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 223
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 224
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 225
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 226
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 227
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 228
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 229
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 230
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 231
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 232
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 233
+Current fitness : 590
+Random neighbor : 515
+Decision        : STAY, no improvement
+
+Iteration       : 234
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 235
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 236
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 237
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 238
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 239
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 240
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 241
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 242
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 243
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 244
+Current fitness : 590
+Random neighbor : 540
+Decision        : STAY, no improvement
+
+Iteration       : 245
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 246
+Current fitness : 590
+Random neighbor : 540
+Decision        : STAY, no improvement
+
+Iteration       : 247
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 248
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 249
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 250
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 251
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 252
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 253
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 254
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 255
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 256
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 257
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 258
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 259
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 260
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 261
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 262
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 263
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 264
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 265
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 266
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 267
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 268
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 269
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 270
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 271
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 272
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 273
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 274
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 275
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 276
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 277
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 278
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 279
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 280
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 281
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 282
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 283
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 284
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 285
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 286
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 287
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 288
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 289
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 290
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 291
+Current fitness : 590
+Random neighbor : 495
+Decision        : STAY, no improvement
+
+Iteration       : 292
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 293
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 294
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 295
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 296
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+Iteration       : 297
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 298
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 299
+Current fitness : 590
+Random neighbor : -1
+Decision        : STAY, no improvement
+
+Iteration       : 300
+Current fitness : 590
+Random neighbor : 590
+Decision        : STAY, no improvement
+
+============================================================
+HASIL AKHIR
+============================================================
+Initial fitness : -1
+Final fitness   : 590
+Iterations      : 300
+Duration        : 0.028891 seconds
+Vehicles loaded : 10
+Vehicles outside: 0
+
+Kendaraan yang dimuat:
+* Vehicle: x=0, y=6, orientation=Vertical, fee=60
+* Vehicle: x=2, y=16, orientation=Vertical, fee=40
+* Vehicle: x=0, y=2, orientation=Vertical, fee=85
+* Vehicle: x=5, y=5, orientation=Horizontal, fee=50
+* Vehicle: x=2, y=10, orientation=Horizontal, fee=95
+* Vehicle: x=7, y=14, orientation=Horizontal, fee=20
+* Vehicle: x=7, y=3, orientation=Horizontal, fee=70
+* Vehicle: x=6, y=1, orientation=Horizontal, fee=30
+* Vehicle: x=6, y=10, orientation=Horizontal, fee=75
+* Vehicle: x=0, y=15, orientation=Horizontal, fee=65

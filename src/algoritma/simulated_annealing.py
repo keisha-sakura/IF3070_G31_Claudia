@@ -77,6 +77,6 @@ def simulated_annealing(vehicles, ship, T_awal, cooling_rate, max_iterasti, stuc
             stuck_count += 1
             no_improvement_iterasi_count = 0
 
-        history_iterasi.append((iterasi + 1, current_value, T, peluang, accepted))
+        history_iterasi.append((iterasi + 1, current_value, T, peluang, accepted, exp_value))
     
     return best, best_value, history_iterasi, initial, initial_value, accepted_count, stuck_count, time.perf_counter() - start_time, exp_value

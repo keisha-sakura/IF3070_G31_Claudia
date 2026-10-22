@@ -1,0 +1,380 @@
+{
+  "result": {
+    "initial_state": {
+      "placed_vehicles": [
+        {
+          "id": "1",
+          "Dimensions": {
+            "w": 3,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 60,
+          "Weight": 5,
+          "ETA": 3,
+          "x": 0,
+          "y": 5
+        },
+        {
+          "id": "2",
+          "Dimensions": {
+            "w": 2,
+            "l": 3
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 40,
+          "Weight": 3,
+          "ETA": 1,
+          "x": 5,
+          "y": 11
+        },
+        {
+          "id": "3",
+          "Dimensions": {
+            "w": 4,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 85,
+          "Weight": 8,
+          "ETA": 2,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "id": "7",
+          "Dimensions": {
+            "w": 3,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 70,
+          "Weight": 6,
+          "ETA": 4,
+          "x": 3,
+          "y": 15
+        },
+        {
+          "id": "8",
+          "Dimensions": {
+            "w": 2,
+            "l": 2
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 30,
+          "Weight": 3,
+          "ETA": 2,
+          "x": 8,
+          "y": 14
+        },
+        {
+          "id": "9",
+          "Dimensions": {
+            "w": 4,
+            "l": 4
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 75,
+          "Weight": 7,
+          "ETA": 6,
+          "x": 0,
+          "y": 1
+        }
+      ],
+      "outside_vehicles": [
+        {
+          "id": "4",
+          "Dimensions": {
+            "w": 2,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 50,
+          "Weight": 4,
+          "ETA": 5
+        },
+        {
+          "id": "5",
+          "Dimensions": {
+            "w": 3,
+            "l": 6
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 95,
+          "Weight": 10,
+          "ETA": 3
+        },
+        {
+          "id": "6",
+          "Dimensions": {
+            "w": 1,
+            "l": 2
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 20,
+          "Weight": 2,
+          "ETA": 1
+        },
+        {
+          "id": "10",
+          "Dimensions": {
+            "w": 2,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 65,
+          "Weight": 5,
+          "ETA": 3
+        }
+      ]
+    },
+    "initial_fitness": 360,
+    "final_state": {
+      "placed_vehicles": [
+        {
+          "id": "1",
+          "Dimensions": {
+            "w": 3,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 60,
+          "Weight": 5,
+          "ETA": 3,
+          "x": 6,
+          "y": 13
+        },
+        {
+          "id": "2",
+          "Dimensions": {
+            "w": 2,
+            "l": 3
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 40,
+          "Weight": 3,
+          "ETA": 1,
+          "x": 7,
+          "y": 1
+        },
+        {
+          "id": "3",
+          "Dimensions": {
+            "w": 4,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 85,
+          "Weight": 8,
+          "ETA": 2,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "id": "4",
+          "Dimensions": {
+            "w": 2,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 50,
+          "Weight": 4,
+          "ETA": 5,
+          "x": 6,
+          "y": 16
+        },
+        {
+          "id": "5",
+          "Dimensions": {
+            "w": 3,
+            "l": 6
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 95,
+          "Weight": 10,
+          "ETA": 3,
+          "x": 3,
+          "y": 14
+        },
+        {
+          "id": "6",
+          "Dimensions": {
+            "w": 1,
+            "l": 2
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 20,
+          "Weight": 2,
+          "ETA": 1,
+          "x": 1,
+          "y": 15
+        },
+        {
+          "id": "7",
+          "Dimensions": {
+            "w": 3,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 70,
+          "Weight": 6,
+          "ETA": 4,
+          "x": 0,
+          "y": 10
+        },
+        {
+          "id": "8",
+          "Dimensions": {
+            "w": 2,
+            "l": 2
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 30,
+          "Weight": 3,
+          "ETA": 2,
+          "x": 3,
+          "y": 12
+        },
+        {
+          "id": "9",
+          "Dimensions": {
+            "w": 4,
+            "l": 4
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 75,
+          "Weight": 7,
+          "ETA": 6,
+          "x": 0,
+          "y": 4
+        },
+        {
+          "id": "10",
+          "Dimensions": {
+            "w": 2,
+            "l": 5
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 65,
+          "Weight": 5,
+          "ETA": 3,
+          "x": 2,
+          "y": 8
+        }
+      ],
+      "outside_vehicles": []
+    },
+    "final_fitness": 590,
+    "fitness_list": [
+      360,
+      455,
+      520,
+      570,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590
+    ],
+    "history_iterasi": [
+      [
+        1,
+        455,
+        0
+      ],
+      [
+        2,
+        520,
+        0
+      ],
+      [
+        3,
+        570,
+        0
+      ],
+      [
+        4,
+        590,
+        0
+      ],
+      [
+        5,
+        590,
+        1
+      ],
+      [
+        6,
+        590,
+        2
+      ],
+      [
+        7,
+        590,
+        3
+      ],
+      [
+        8,
+        590,
+        4
+      ],
+      [
+        9,
+        590,
+        5
+      ],
+      [
+        10,
+        590,
+        6
+      ],
+      [
+        11,
+        590,
+        7
+      ],
+      [
+        12,
+        590,
+        8
+      ],
+      [
+        13,
+        590,
+        9
+      ],
+      [
+        14,
+        590,
+        10
+      ]
+    ],
+    "duration": 1.9079968999139965,
+    "iterations": 15,
+    "sideways_total": 10
+  },
+  "ship": {
+    "Dimensions": {
+      "w": 10,
+      "l": 20
+    },
+    "MaxCapacity": 500
+  },
+  "console": "",
+  "error": null,
+  "algorithm": "HC: Sideways Move",
+  "group": "Konfigurasi utama",
+  "repeat": 1,
+  "number": 1,
+  "parameters": {
+    "max_sideways": 10,
+    "max_iterasi": 300
+  },
+  "output_path": "C:\\Users\\Keisha Sakura\\Documents\\IF3070_G31_Claudia\\output\\hc_sideways\\eksperimen_2026-10-22_14-17-04\\run_01"
+}

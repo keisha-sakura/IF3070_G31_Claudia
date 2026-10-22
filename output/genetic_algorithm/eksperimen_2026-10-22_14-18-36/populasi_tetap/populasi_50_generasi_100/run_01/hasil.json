@@ -1,0 +1,494 @@
+{
+  "result": {
+    "initial_state": {
+      "placed_vehicles": [
+        {
+          "id": "1",
+          "Dimensions": {
+            "w": 3,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 60,
+          "Weight": 5,
+          "ETA": 3,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "id": "5",
+          "Dimensions": {
+            "w": 3,
+            "l": 6
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 95,
+          "Weight": 10,
+          "ETA": 3,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "id": "6",
+          "Dimensions": {
+            "w": 1,
+            "l": 2
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 20,
+          "Weight": 2,
+          "ETA": 1,
+          "x": 1,
+          "y": 17
+        },
+        {
+          "id": "7",
+          "Dimensions": {
+            "w": 3,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 70,
+          "Weight": 6,
+          "ETA": 4,
+          "x": 0,
+          "y": 12
+        },
+        {
+          "id": "8",
+          "Dimensions": {
+            "w": 2,
+            "l": 2
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 30,
+          "Weight": 3,
+          "ETA": 2,
+          "x": 8,
+          "y": 9
+        },
+        {
+          "id": "10",
+          "Dimensions": {
+            "w": 2,
+            "l": 5
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 65,
+          "Weight": 5,
+          "ETA": 3,
+          "x": 2,
+          "y": 2
+        }
+      ],
+      "outside_vehicles": [
+        {
+          "id": "2",
+          "Dimensions": {
+            "w": 2,
+            "l": 3
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 40,
+          "Weight": 3,
+          "ETA": 1
+        },
+        {
+          "id": "3",
+          "Dimensions": {
+            "w": 4,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 85,
+          "Weight": 8,
+          "ETA": 2
+        },
+        {
+          "id": "4",
+          "Dimensions": {
+            "w": 2,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 50,
+          "Weight": 4,
+          "ETA": 5
+        },
+        {
+          "id": "9",
+          "Dimensions": {
+            "w": 4,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 75,
+          "Weight": 7,
+          "ETA": 6
+        }
+      ]
+    },
+    "initial_fitness": 340,
+    "final_state": {
+      "placed_vehicles": [
+        {
+          "id": "1",
+          "Dimensions": {
+            "w": 3,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 60,
+          "Weight": 5,
+          "ETA": 3,
+          "x": 2,
+          "y": 13
+        },
+        {
+          "id": "2",
+          "Dimensions": {
+            "w": 2,
+            "l": 3
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 40,
+          "Weight": 3,
+          "ETA": 1,
+          "x": 0,
+          "y": 18
+        },
+        {
+          "id": "3",
+          "Dimensions": {
+            "w": 4,
+            "l": 5
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 85,
+          "Weight": 8,
+          "ETA": 2,
+          "x": 0,
+          "y": 7
+        },
+        {
+          "id": "4",
+          "Dimensions": {
+            "w": 2,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 50,
+          "Weight": 4,
+          "ETA": 5,
+          "x": 6,
+          "y": 14
+        },
+        {
+          "id": "5",
+          "Dimensions": {
+            "w": 3,
+            "l": 6
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 95,
+          "Weight": 10,
+          "ETA": 3,
+          "x": 3,
+          "y": 0
+        },
+        {
+          "id": "6",
+          "Dimensions": {
+            "w": 1,
+            "l": 2
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 20,
+          "Weight": 2,
+          "ETA": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "9",
+          "Dimensions": {
+            "w": 4,
+            "l": 4
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 75,
+          "Weight": 7,
+          "ETA": 6,
+          "x": 2,
+          "y": 3
+        },
+        {
+          "id": "10",
+          "Dimensions": {
+            "w": 2,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 65,
+          "Weight": 5,
+          "ETA": 3,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "outside_vehicles": [
+        {
+          "id": "7",
+          "Dimensions": {
+            "w": 3,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 70,
+          "Weight": 6,
+          "ETA": 4
+        },
+        {
+          "id": "8",
+          "Dimensions": {
+            "w": 2,
+            "l": 2
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 30,
+          "Weight": 3,
+          "ETA": 2
+        }
+      ]
+    },
+    "final_fitness": 490,
+    "fitness_list": [
+      340,
+      340,
+      350,
+      390,
+      390,
+      390,
+      405,
+      405,
+      405,
+      405,
+      405,
+      405,
+      405,
+      405,
+      405,
+      405,
+      405,
+      405,
+      405,
+      435,
+      425,
+      425,
+      425,
+      425,
+      425,
+      435,
+      425,
+      425,
+      425,
+      425,
+      425,
+      435,
+      435,
+      435,
+      435,
+      425,
+      425,
+      425,
+      425,
+      455,
+      435,
+      435,
+      435,
+      435,
+      435,
+      435,
+      435,
+      435,
+      435,
+      435,
+      435,
+      435,
+      435,
+      435,
+      435,
+      475,
+      475,
+      505,
+      505,
+      505,
+      505,
+      505,
+      505,
+      505,
+      505,
+      505,
+      505,
+      505,
+      505,
+      505,
+      505,
+      505,
+      475,
+      495,
+      495,
+      455,
+      455,
+      455,
+      455,
+      455,
+      455,
+      455,
+      455,
+      450,
+      455,
+      455,
+      455,
+      455,
+      455,
+      455,
+      455,
+      455,
+      455,
+      475,
+      490,
+      490,
+      490,
+      490,
+      470,
+      490,
+      490
+    ],
+    "duration": 0.5169715998927131,
+    "avg_fitness_list": [
+      43.32,
+      176.94,
+      177.42,
+      183.4,
+      191.18,
+      183.04,
+      204.94,
+      206.32,
+      225.02,
+      252.3,
+      261.8,
+      278.62,
+      301.34,
+      323.14,
+      340.96,
+      342.36,
+      340.44,
+      362.18,
+      378.1,
+      367.94,
+      349.2,
+      343.28,
+      295.96,
+      350.3,
+      338.98,
+      372.46,
+      362.54,
+      337.06,
+      369.54,
+      355.6,
+      383.88,
+      379.96,
+      345.58,
+      346.48,
+      365.92,
+      391.08,
+      371.04,
+      369.34,
+      361.72,
+      378.76,
+      346.68,
+      362.52,
+      353.8,
+      351.7,
+      334.06,
+      363.14,
+      356.1,
+      375.84,
+      382.04,
+      358.48,
+      387.26,
+      366.02,
+      348.48,
+      371.24,
+      376.86,
+      383.66,
+      392.26,
+      414.28,
+      398.24,
+      409.96,
+      385.5,
+      403.64,
+      405.04,
+      390.9,
+      367.44,
+      391.48,
+      399.6,
+      401.12,
+      390.4,
+      398.72,
+      363.04,
+      412.96,
+      413.48,
+      394.84,
+      399.86,
+      369.0,
+      371.3,
+      378.42,
+      388.74,
+      385.82,
+      391.14,
+      373.6,
+      391.34,
+      398.86,
+      387.34,
+      400.18,
+      390.16,
+      361.08,
+      377.92,
+      397.66,
+      390.24,
+      407.48,
+      402.06,
+      384.72,
+      350.54,
+      375.2,
+      378.9,
+      408.26,
+      388.22,
+      382.0,
+      383.2
+    ],
+    "population_size": 50,
+    "max_iteration": 100
+  },
+  "ship": {
+    "Dimensions": {
+      "w": 10,
+      "l": 20
+    },
+    "MaxCapacity": 500
+  },
+  "console": "",
+  "error": null,
+  "algorithm": "GA: Genetic Algorithm",
+  "group": "Populasi tetap",
+  "repeat": 1,
+  "number": 1,
+  "parameters": {
+    "population_size": 50,
+    "max_iteration": 100,
+    "mutation_rate": 0.1
+  },
+  "output_path": "C:\\Users\\Keisha Sakura\\Documents\\IF3070_G31_Claudia\\output\\genetic_algorithm\\eksperimen_2026-10-22_14-18-36\\populasi_tetap\\populasi_50_generasi_100\\run_01"
+}

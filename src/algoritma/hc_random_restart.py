@@ -31,6 +31,7 @@ def random_restart(vehicles, ship, max_restarts=10, max_iterations=300):
     best_fitness = None
 
     fitness_list = []
+    iteration_history = [] 
     restart_fitness_list = []
     iterations_per_restart = []
     total_iterations = 0
@@ -63,6 +64,7 @@ def random_restart(vehicles, ship, max_restarts=10, max_iterations=300):
 
         current_state = copy.deepcopy(initial_state)
         current_fitness = initial_fitness
+        iteration_history.append((restart, 0, current_fitness))
 
         run_best_state = copy.deepcopy(current_state)
         run_best_fitness = current_fitness
@@ -88,12 +90,14 @@ def random_restart(vehicles, ship, max_restarts=10, max_iterations=300):
 
             # 5. berhenti jika tidak ada peningkatan
             if neighbor_fitness <= current_fitness:
+                iteration_history.append((restart, iteration, current_fitness))
                 print("Decision        : STOP, no improvement")
                 break
 
             # 6. pindah ke neighbor dengan fitness lebih tinggi
             current_state = copy.deepcopy(neighbor_state)
             current_fitness = neighbor_fitness
+            iteration_history.append((restart, iteration, current_fitness))
 
             if current_fitness > run_best_fitness:
                 run_best_state = copy.deepcopy(current_state)
@@ -173,6 +177,7 @@ def random_restart(vehicles, ship, max_restarts=10, max_iterations=300):
         "final_state": decoded_final_state,
         "final_fitness": best_fitness,
         "fitness_list": fitness_list,
+        "iteration_history": iteration_history,
         "restart_fitness_list": restart_fitness_list,
         "iterations_per_restart": iterations_per_restart,
         "duration": duration,

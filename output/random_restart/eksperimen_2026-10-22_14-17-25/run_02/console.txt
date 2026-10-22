@@ -1,0 +1,419 @@
+============================================================
+RANDOM RESTART HILL CLIMBING
+============================================================
+Max restarts   : 10
+Max iterations : 300
+
+============================================================
+RESTART 1
+============================================================
+Initial fitness: 115
+
+Iteration       : 1
+Current fitness : 115
+Best neighbor   : 210
+Decision        : MOVE to best neighbor
+
+Iteration       : 2
+Current fitness : 210
+Best neighbor   : 295
+Decision        : MOVE to best neighbor
+
+Iteration       : 3
+Current fitness : 295
+Best neighbor   : 370
+Decision        : MOVE to best neighbor
+
+Iteration       : 4
+Current fitness : 370
+Best neighbor   : 440
+Decision        : MOVE to best neighbor
+
+Iteration       : 5
+Current fitness : 440
+Best neighbor   : 500
+Decision        : MOVE to best neighbor
+
+Iteration       : 6
+Current fitness : 500
+Best neighbor   : 550
+Decision        : MOVE to best neighbor
+
+Iteration       : 7
+Current fitness : 550
+Best neighbor   : 590
+Decision        : MOVE to best neighbor
+
+Iteration       : 8
+Current fitness : 590
+Best neighbor   : 590
+Decision        : STOP, no improvement
+
+Restart 1 selesai
+Final fitness   : 590
+Iterations      : 8
+Decision        : NEW BEST across restarts
+
+============================================================
+RESTART 2
+============================================================
+Initial fitness: -1
+
+Iteration       : 1
+Current fitness : -1
+Best neighbor   : -1
+Decision        : STOP, no improvement
+
+Restart 2 selesai
+Final fitness   : -1
+Iterations      : 1
+
+============================================================
+RESTART 3
+============================================================
+Initial fitness: 205
+
+Iteration       : 1
+Current fitness : 205
+Best neighbor   : 300
+Decision        : MOVE to best neighbor
+
+Iteration       : 2
+Current fitness : 300
+Best neighbor   : 385
+Decision        : MOVE to best neighbor
+
+Iteration       : 3
+Current fitness : 385
+Best neighbor   : 460
+Decision        : MOVE to best neighbor
+
+Iteration       : 4
+Current fitness : 460
+Best neighbor   : 530
+Decision        : MOVE to best neighbor
+
+Iteration       : 5
+Current fitness : 530
+Best neighbor   : 550
+Decision        : MOVE to best neighbor
+
+Iteration       : 6
+Current fitness : 550
+Best neighbor   : 590
+Decision        : MOVE to best neighbor
+
+Iteration       : 7
+Current fitness : 590
+Best neighbor   : 590
+Decision        : STOP, no improvement
+
+Restart 3 selesai
+Final fitness   : 590
+Iterations      : 7
+
+============================================================
+RESTART 4
+============================================================
+Initial fitness: -1
+
+Iteration       : 1
+Current fitness : -1
+Best neighbor   : -1
+Decision        : STOP, no improvement
+
+Restart 4 selesai
+Final fitness   : -1
+Iterations      : 1
+
+============================================================
+RESTART 5
+============================================================
+Initial fitness: -1
+
+Iteration       : 1
+Current fitness : -1
+Best neighbor   : 370
+Decision        : MOVE to best neighbor
+
+Iteration       : 2
+Current fitness : 370
+Best neighbor   : 440
+Decision        : MOVE to best neighbor
+
+Iteration       : 3
+Current fitness : 440
+Best neighbor   : 500
+Decision        : MOVE to best neighbor
+
+Iteration       : 4
+Current fitness : 500
+Best neighbor   : 540
+Decision        : MOVE to best neighbor
+
+Iteration       : 5
+Current fitness : 540
+Best neighbor   : 570
+Decision        : MOVE to best neighbor
+
+Iteration       : 6
+Current fitness : 570
+Best neighbor   : 590
+Decision        : MOVE to best neighbor
+
+Iteration       : 7
+Current fitness : 590
+Best neighbor   : 590
+Decision        : STOP, no improvement
+
+Restart 5 selesai
+Final fitness   : 590
+Iterations      : 7
+
+============================================================
+RESTART 6
+============================================================
+Initial fitness: -1
+
+Iteration       : 1
+Current fitness : -1
+Best neighbor   : 285
+Decision        : MOVE to best neighbor
+
+Iteration       : 2
+Current fitness : 285
+Best neighbor   : 380
+Decision        : MOVE to best neighbor
+
+Iteration       : 3
+Current fitness : 380
+Best neighbor   : 450
+Decision        : MOVE to best neighbor
+
+Iteration       : 4
+Current fitness : 450
+Best neighbor   : 510
+Decision        : MOVE to best neighbor
+
+Iteration       : 5
+Current fitness : 510
+Best neighbor   : 560
+Decision        : MOVE to best neighbor
+
+Iteration       : 6
+Current fitness : 560
+Best neighbor   : 590
+Decision        : MOVE to best neighbor
+
+Iteration       : 7
+Current fitness : 590
+Best neighbor   : 590
+Decision        : STOP, no improvement
+
+Restart 6 selesai
+Final fitness   : 590
+Iterations      : 7
+
+============================================================
+RESTART 7
+============================================================
+Initial fitness: 270
+
+Iteration       : 1
+Current fitness : 270
+Best neighbor   : 355
+Decision        : MOVE to best neighbor
+
+Iteration       : 2
+Current fitness : 355
+Best neighbor   : 420
+Decision        : MOVE to best neighbor
+
+Iteration       : 3
+Current fitness : 420
+Best neighbor   : 480
+Decision        : MOVE to best neighbor
+
+Iteration       : 4
+Current fitness : 480
+Best neighbor   : 530
+Decision        : MOVE to best neighbor
+
+Iteration       : 5
+Current fitness : 530
+Best neighbor   : 570
+Decision        : MOVE to best neighbor
+
+Iteration       : 6
+Current fitness : 570
+Best neighbor   : 590
+Decision        : MOVE to best neighbor
+
+Iteration       : 7
+Current fitness : 590
+Best neighbor   : 590
+Decision        : STOP, no improvement
+
+Restart 7 selesai
+Final fitness   : 590
+Iterations      : 7
+
+============================================================
+RESTART 8
+============================================================
+Initial fitness: 115
+
+Iteration       : 1
+Current fitness : 115
+Best neighbor   : 200
+Decision        : MOVE to best neighbor
+
+Iteration       : 2
+Current fitness : 200
+Best neighbor   : 275
+Decision        : MOVE to best neighbor
+
+Iteration       : 3
+Current fitness : 275
+Best neighbor   : 345
+Decision        : MOVE to best neighbor
+
+Iteration       : 4
+Current fitness : 345
+Best neighbor   : 410
+Decision        : MOVE to best neighbor
+
+Iteration       : 5
+Current fitness : 410
+Best neighbor   : 470
+Decision        : MOVE to best neighbor
+
+Iteration       : 6
+Current fitness : 470
+Best neighbor   : 520
+Decision        : MOVE to best neighbor
+
+Iteration       : 7
+Current fitness : 520
+Best neighbor   : 560
+Decision        : MOVE to best neighbor
+
+Iteration       : 8
+Current fitness : 560
+Best neighbor   : 590
+Decision        : MOVE to best neighbor
+
+Iteration       : 9
+Current fitness : 590
+Best neighbor   : 590
+Decision        : STOP, no improvement
+
+Restart 8 selesai
+Final fitness   : 590
+Iterations      : 9
+
+============================================================
+RESTART 9
+============================================================
+Initial fitness: -1
+
+Iteration       : 1
+Current fitness : -1
+Best neighbor   : 240
+Decision        : MOVE to best neighbor
+
+Iteration       : 2
+Current fitness : 240
+Best neighbor   : 335
+Decision        : MOVE to best neighbor
+
+Iteration       : 3
+Current fitness : 335
+Best neighbor   : 420
+Decision        : MOVE to best neighbor
+
+Iteration       : 4
+Current fitness : 420
+Best neighbor   : 495
+Decision        : MOVE to best neighbor
+
+Iteration       : 5
+Current fitness : 495
+Best neighbor   : 560
+Decision        : MOVE to best neighbor
+
+Iteration       : 6
+Current fitness : 560
+Best neighbor   : 590
+Decision        : MOVE to best neighbor
+
+Iteration       : 7
+Current fitness : 590
+Best neighbor   : 590
+Decision        : STOP, no improvement
+
+Restart 9 selesai
+Final fitness   : 590
+Iterations      : 7
+
+============================================================
+RESTART 10
+============================================================
+Initial fitness: 285
+
+Iteration       : 1
+Current fitness : 285
+Best neighbor   : 380
+Decision        : MOVE to best neighbor
+
+Iteration       : 2
+Current fitness : 380
+Best neighbor   : 450
+Decision        : MOVE to best neighbor
+
+Iteration       : 3
+Current fitness : 450
+Best neighbor   : 510
+Decision        : MOVE to best neighbor
+
+Iteration       : 4
+Current fitness : 510
+Best neighbor   : 560
+Decision        : MOVE to best neighbor
+
+Iteration       : 5
+Current fitness : 560
+Best neighbor   : 590
+Decision        : MOVE to best neighbor
+
+Iteration       : 6
+Current fitness : 590
+Best neighbor   : 590
+Decision        : STOP, no improvement
+
+Restart 10 selesai
+Final fitness   : 590
+Iterations      : 6
+
+============================================================
+HASIL AKHIR
+============================================================
+Initial fitness : 115
+Final fitness   : 590
+Restarts        : 10
+Iterations      : 60
+Duration        : 7.531466 seconds
+Vehicles loaded : 10
+Vehicles outside: 0
+
+Kendaraan yang dimuat:
+* Vehicle: x=5, y=5, orientation=Vertical, fee=60
+* Vehicle: x=0, y=8, orientation=Horizontal, fee=40
+* Vehicle: x=1, y=14, orientation=Vertical, fee=85
+* Vehicle: x=3, y=5, orientation=Horizontal, fee=50
+* Vehicle: x=4, y=10, orientation=Vertical, fee=95
+* Vehicle: x=2, y=8, orientation=Horizontal, fee=20
+* Vehicle: x=5, y=0, orientation=Vertical, fee=70
+* Vehicle: x=2, y=1, orientation=Vertical, fee=30
+* Vehicle: x=6, y=13, orientation=Horizontal, fee=75
+* Vehicle: x=2, y=3, orientation=Vertical, fee=65

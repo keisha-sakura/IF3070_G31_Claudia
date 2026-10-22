@@ -1,0 +1,677 @@
+{
+  "result": {
+    "initial_state": {
+      "placed_vehicles": [
+        {
+          "id": "3",
+          "Dimensions": {
+            "w": 4,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 85,
+          "Weight": 8,
+          "ETA": 2,
+          "x": 3,
+          "y": 9
+        },
+        {
+          "id": "4",
+          "Dimensions": {
+            "w": 2,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 50,
+          "Weight": 4,
+          "ETA": 5,
+          "x": 6,
+          "y": 2
+        },
+        {
+          "id": "7",
+          "Dimensions": {
+            "w": 3,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 70,
+          "Weight": 6,
+          "ETA": 4,
+          "x": 0,
+          "y": 11
+        },
+        {
+          "id": "8",
+          "Dimensions": {
+            "w": 2,
+            "l": 2
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 30,
+          "Weight": 3,
+          "ETA": 2,
+          "x": 8,
+          "y": 9
+        },
+        {
+          "id": "9",
+          "Dimensions": {
+            "w": 4,
+            "l": 4
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 75,
+          "Weight": 7,
+          "ETA": 6,
+          "x": 0,
+          "y": 3
+        }
+      ],
+      "outside_vehicles": [
+        {
+          "id": "1",
+          "Dimensions": {
+            "w": 3,
+            "l": 4
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 60,
+          "Weight": 5,
+          "ETA": 3
+        },
+        {
+          "id": "2",
+          "Dimensions": {
+            "w": 2,
+            "l": 3
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 40,
+          "Weight": 3,
+          "ETA": 1
+        },
+        {
+          "id": "5",
+          "Dimensions": {
+            "w": 3,
+            "l": 6
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 95,
+          "Weight": 10,
+          "ETA": 3
+        },
+        {
+          "id": "6",
+          "Dimensions": {
+            "w": 1,
+            "l": 2
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 20,
+          "Weight": 2,
+          "ETA": 1
+        },
+        {
+          "id": "10",
+          "Dimensions": {
+            "w": 2,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 65,
+          "Weight": 5,
+          "ETA": 3
+        }
+      ]
+    },
+    "initial_fitness": 310,
+    "final_state": {
+      "placed_vehicles": [
+        {
+          "id": "1",
+          "Dimensions": {
+            "w": 3,
+            "l": 4
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 60,
+          "Weight": 5,
+          "ETA": 3,
+          "x": 6,
+          "y": 16
+        },
+        {
+          "id": "2",
+          "Dimensions": {
+            "w": 2,
+            "l": 3
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 40,
+          "Weight": 3,
+          "ETA": 1,
+          "x": 0,
+          "y": 8
+        },
+        {
+          "id": "3",
+          "Dimensions": {
+            "w": 4,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 85,
+          "Weight": 8,
+          "ETA": 2,
+          "x": 3,
+          "y": 9
+        },
+        {
+          "id": "4",
+          "Dimensions": {
+            "w": 2,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 50,
+          "Weight": 4,
+          "ETA": 5,
+          "x": 6,
+          "y": 2
+        },
+        {
+          "id": "5",
+          "Dimensions": {
+            "w": 3,
+            "l": 6
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 95,
+          "Weight": 10,
+          "ETA": 3,
+          "x": 3,
+          "y": 14
+        },
+        {
+          "id": "6",
+          "Dimensions": {
+            "w": 1,
+            "l": 2
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 20,
+          "Weight": 2,
+          "ETA": 1,
+          "x": 2,
+          "y": 18
+        },
+        {
+          "id": "7",
+          "Dimensions": {
+            "w": 3,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 70,
+          "Weight": 6,
+          "ETA": 4,
+          "x": 0,
+          "y": 11
+        },
+        {
+          "id": "8",
+          "Dimensions": {
+            "w": 2,
+            "l": 2
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 30,
+          "Weight": 3,
+          "ETA": 2,
+          "x": 8,
+          "y": 9
+        },
+        {
+          "id": "9",
+          "Dimensions": {
+            "w": 4,
+            "l": 4
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 75,
+          "Weight": 7,
+          "ETA": 6,
+          "x": 0,
+          "y": 3
+        },
+        {
+          "id": "10",
+          "Dimensions": {
+            "w": 2,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 65,
+          "Weight": 5,
+          "ETA": 3,
+          "x": 8,
+          "y": 4
+        }
+      ],
+      "outside_vehicles": []
+    },
+    "final_fitness": 590,
+    "fitness_list": [
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590
+    ],
+    "iteration_history": [
+      [
+        1,
+        0,
+        310
+      ],
+      [
+        1,
+        1,
+        405
+      ],
+      [
+        1,
+        2,
+        470
+      ],
+      [
+        1,
+        3,
+        530
+      ],
+      [
+        1,
+        4,
+        570
+      ],
+      [
+        1,
+        5,
+        590
+      ],
+      [
+        1,
+        6,
+        590
+      ],
+      [
+        2,
+        0,
+        195
+      ],
+      [
+        2,
+        1,
+        280
+      ],
+      [
+        2,
+        2,
+        355
+      ],
+      [
+        2,
+        3,
+        420
+      ],
+      [
+        2,
+        4,
+        480
+      ],
+      [
+        2,
+        5,
+        530
+      ],
+      [
+        2,
+        6,
+        570
+      ],
+      [
+        2,
+        7,
+        590
+      ],
+      [
+        2,
+        8,
+        590
+      ],
+      [
+        3,
+        0,
+        -1
+      ],
+      [
+        3,
+        1,
+        345
+      ],
+      [
+        3,
+        2,
+        430
+      ],
+      [
+        3,
+        3,
+        500
+      ],
+      [
+        3,
+        4,
+        560
+      ],
+      [
+        3,
+        5,
+        590
+      ],
+      [
+        3,
+        6,
+        590
+      ],
+      [
+        4,
+        0,
+        225
+      ],
+      [
+        4,
+        1,
+        320
+      ],
+      [
+        4,
+        2,
+        405
+      ],
+      [
+        4,
+        3,
+        470
+      ],
+      [
+        4,
+        4,
+        520
+      ],
+      [
+        4,
+        5,
+        560
+      ],
+      [
+        4,
+        6,
+        590
+      ],
+      [
+        4,
+        7,
+        590
+      ],
+      [
+        5,
+        0,
+        -1
+      ],
+      [
+        5,
+        1,
+        285
+      ],
+      [
+        5,
+        2,
+        355
+      ],
+      [
+        5,
+        3,
+        420
+      ],
+      [
+        5,
+        4,
+        480
+      ],
+      [
+        5,
+        5,
+        530
+      ],
+      [
+        5,
+        6,
+        570
+      ],
+      [
+        5,
+        7,
+        590
+      ],
+      [
+        5,
+        8,
+        590
+      ],
+      [
+        6,
+        0,
+        -1
+      ],
+      [
+        6,
+        1,
+        175
+      ],
+      [
+        6,
+        2,
+        270
+      ],
+      [
+        6,
+        3,
+        355
+      ],
+      [
+        6,
+        4,
+        425
+      ],
+      [
+        6,
+        5,
+        490
+      ],
+      [
+        6,
+        6,
+        550
+      ],
+      [
+        6,
+        7,
+        590
+      ],
+      [
+        6,
+        8,
+        590
+      ],
+      [
+        7,
+        0,
+        205
+      ],
+      [
+        7,
+        1,
+        290
+      ],
+      [
+        7,
+        2,
+        365
+      ],
+      [
+        7,
+        3,
+        435
+      ],
+      [
+        7,
+        4,
+        500
+      ],
+      [
+        7,
+        5,
+        560
+      ],
+      [
+        7,
+        6,
+        590
+      ],
+      [
+        7,
+        7,
+        590
+      ],
+      [
+        8,
+        0,
+        185
+      ],
+      [
+        8,
+        1,
+        280
+      ],
+      [
+        8,
+        2,
+        355
+      ],
+      [
+        8,
+        3,
+        420
+      ],
+      [
+        8,
+        4,
+        480
+      ],
+      [
+        8,
+        5,
+        530
+      ],
+      [
+        8,
+        6,
+        570
+      ],
+      [
+        8,
+        7,
+        590
+      ],
+      [
+        8,
+        8,
+        590
+      ],
+      [
+        9,
+        0,
+        -1
+      ],
+      [
+        9,
+        1,
+        -1
+      ],
+      [
+        10,
+        0,
+        -1
+      ],
+      [
+        10,
+        1,
+        -1
+      ]
+    ],
+    "restart_fitness_list": [
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      590,
+      -1,
+      -1
+    ],
+    "iterations_per_restart": [
+      6,
+      8,
+      6,
+      7,
+      8,
+      8,
+      7,
+      8,
+      1,
+      1
+    ],
+    "duration": 7.308224201202393,
+    "max_restart": 10,
+    "max_iteration": 300,
+    "iterations": 60
+  },
+  "ship": {
+    "Dimensions": {
+      "w": 10,
+      "l": 20
+    },
+    "MaxCapacity": 500
+  },
+  "console": "============================================================\nRANDOM RESTART HILL CLIMBING\n============================================================\nMax restarts   : 10\nMax iterations : 300\n\n============================================================\nRESTART 1\n============================================================\nInitial fitness: 310\n\nIteration       : 1\nCurrent fitness : 310\nBest neighbor   : 405\nDecision        : MOVE to best neighbor\n\nIteration       : 2\nCurrent fitness : 405\nBest neighbor   : 470\nDecision        : MOVE to best neighbor\n\nIteration       : 3\nCurrent fitness : 470\nBest neighbor   : 530\nDecision        : MOVE to best neighbor\n\nIteration       : 4\nCurrent fitness : 530\nBest neighbor   : 570\nDecision        : MOVE to best neighbor\n\nIteration       : 5\nCurrent fitness : 570\nBest neighbor   : 590\nDecision        : MOVE to best neighbor\n\nIteration       : 6\nCurrent fitness : 590\nBest neighbor   : 590\nDecision        : STOP, no improvement\n\nRestart 1 selesai\nFinal fitness   : 590\nIterations      : 6\nDecision        : NEW BEST across restarts\n\n============================================================\nRESTART 2\n============================================================\nInitial fitness: 195\n\nIteration       : 1\nCurrent fitness : 195\nBest neighbor   : 280\nDecision        : MOVE to best neighbor\n\nIteration       : 2\nCurrent fitness : 280\nBest neighbor   : 355\nDecision        : MOVE to best neighbor\n\nIteration       : 3\nCurrent fitness : 355\nBest neighbor   : 420\nDecision        : MOVE to best neighbor\n\nIteration       : 4\nCurrent fitness : 420\nBest neighbor   : 480\nDecision        : MOVE to best neighbor\n\nIteration       : 5\nCurrent fitness : 480\nBest neighbor   : 530\nDecision        : MOVE to best neighbor\n\nIteration       : 6\nCurrent fitness : 530\nBest neighbor   : 570\nDecision        : MOVE to best neighbor\n\nIteration       : 7\nCurrent fitness : 570\nBest neighbor   : 590\nDecision        : MOVE to best neighbor\n\nIteration       : 8\nCurrent fitness : 590\nBest neighbor   : 590\nDecision        : STOP, no improvement\n\nRestart 2 selesai\nFinal fitness   : 590\nIterations      : 8\n\n============================================================\nRESTART 3\n============================================================\nInitial fitness: -1\n\nIteration       : 1\nCurrent fitness : -1\nBest neighbor   : 345\nDecision        : MOVE to best neighbor\n\nIteration       : 2\nCurrent fitness : 345\nBest neighbor   : 430\nDecision        : MOVE to best neighbor\n\nIteration       : 3\nCurrent fitness : 430\nBest neighbor   : 500\nDecision        : MOVE to best neighbor\n\nIteration       : 4\nCurrent fitness : 500\nBest neighbor   : 560\nDecision        : MOVE to best neighbor\n\nIteration       : 5\nCurrent fitness : 560\nBest neighbor   : 590\nDecision        : MOVE to best neighbor\n\nIteration       : 6\nCurrent fitness : 590\nBest neighbor   : 590\nDecision        : STOP, no improvement\n\nRestart 3 selesai\nFinal fitness   : 590\nIterations      : 6\n\n============================================================\nRESTART 4\n============================================================\nInitial fitness: 225\n\nIteration       : 1\nCurrent fitness : 225\nBest neighbor   : 320\nDecision        : MOVE to best neighbor\n\nIteration       : 2\nCurrent fitness : 320\nBest neighbor   : 405\nDecision        : MOVE to best neighbor\n\nIteration       : 3\nCurrent fitness : 405\nBest neighbor   : 470\nDecision        : MOVE to best neighbor\n\nIteration       : 4\nCurrent fitness : 470\nBest neighbor   : 520\nDecision        : MOVE to best neighbor\n\nIteration       : 5\nCurrent fitness : 520\nBest neighbor   : 560\nDecision        : MOVE to best neighbor\n\nIteration       : 6\nCurrent fitness : 560\nBest neighbor   : 590\nDecision        : MOVE to best neighbor\n\nIteration       : 7\nCurrent fitness : 590\nBest neighbor   : 590\nDecision        : STOP, no improvement\n\nRestart 4 selesai\nFinal fitness   : 590\nIterations      : 7\n\n============================================================\nRESTART 5\n============================================================\nInitial fitness: -1\n\nIteration       : 1\nCurrent fitness : -1\nBest neighbor   : 285\nDecision        : MOVE to best neighbor\n\nIteration       : 2\nCurrent fitness : 285\nBest neighbor   : 355\nDecision        : MOVE to best neighbor\n\nIteration       : 3\nCurrent fitness : 355\nBest neighbor   : 420\nDecision        : MOVE to best neighbor\n\nIteration       : 4\nCurrent fitness : 420\nBest neighbor   : 480\nDecision        : MOVE to best neighbor\n\nIteration       : 5\nCurrent fitness : 480\nBest neighbor   : 530\nDecision        : MOVE to best neighbor\n\nIteration       : 6\nCurrent fitness : 530\nBest neighbor   : 570\nDecision        : MOVE to best neighbor\n\nIteration       : 7\nCurrent fitness : 570\nBest neighbor   : 590\nDecision        : MOVE to best neighbor\n\nIteration       : 8\nCurrent fitness : 590\nBest neighbor   : 590\nDecision        : STOP, no improvement\n\nRestart 5 selesai\nFinal fitness   : 590\nIterations      : 8\n\n============================================================\nRESTART 6\n============================================================\nInitial fitness: -1\n\nIteration       : 1\nCurrent fitness : -1\nBest neighbor   : 175\nDecision        : MOVE to best neighbor\n\nIteration       : 2\nCurrent fitness : 175\nBest neighbor   : 270\nDecision        : MOVE to best neighbor\n\nIteration       : 3\nCurrent fitness : 270\nBest neighbor   : 355\nDecision        : MOVE to best neighbor\n\nIteration       : 4\nCurrent fitness : 355\nBest neighbor   : 425\nDecision        : MOVE to best neighbor\n\nIteration       : 5\nCurrent fitness : 425\nBest neighbor   : 490\nDecision        : MOVE to best neighbor\n\nIteration       : 6\nCurrent fitness : 490\nBest neighbor   : 550\nDecision        : MOVE to best neighbor\n\nIteration       : 7\nCurrent fitness : 550\nBest neighbor   : 590\nDecision        : MOVE to best neighbor\n\nIteration       : 8\nCurrent fitness : 590\nBest neighbor   : 590\nDecision        : STOP, no improvement\n\nRestart 6 selesai\nFinal fitness   : 590\nIterations      : 8\n\n============================================================\nRESTART 7\n============================================================\nInitial fitness: 205\n\nIteration       : 1\nCurrent fitness : 205\nBest neighbor   : 290\nDecision        : MOVE to best neighbor\n\nIteration       : 2\nCurrent fitness : 290\nBest neighbor   : 365\nDecision        : MOVE to best neighbor\n\nIteration       : 3\nCurrent fitness : 365\nBest neighbor   : 435\nDecision        : MOVE to best neighbor\n\nIteration       : 4\nCurrent fitness : 435\nBest neighbor   : 500\nDecision        : MOVE to best neighbor\n\nIteration       : 5\nCurrent fitness : 500\nBest neighbor   : 560\nDecision        : MOVE to best neighbor\n\nIteration       : 6\nCurrent fitness : 560\nBest neighbor   : 590\nDecision        : MOVE to best neighbor\n\nIteration       : 7\nCurrent fitness : 590\nBest neighbor   : 590\nDecision        : STOP, no improvement\n\nRestart 7 selesai\nFinal fitness   : 590\nIterations      : 7\n\n============================================================\nRESTART 8\n============================================================\nInitial fitness: 185\n\nIteration       : 1\nCurrent fitness : 185\nBest neighbor   : 280\nDecision        : MOVE to best neighbor\n\nIteration       : 2\nCurrent fitness : 280\nBest neighbor   : 355\nDecision        : MOVE to best neighbor\n\nIteration       : 3\nCurrent fitness : 355\nBest neighbor   : 420\nDecision        : MOVE to best neighbor\n\nIteration       : 4\nCurrent fitness : 420\nBest neighbor   : 480\nDecision        : MOVE to best neighbor\n\nIteration       : 5\nCurrent fitness : 480\nBest neighbor   : 530\nDecision        : MOVE to best neighbor\n\nIteration       : 6\nCurrent fitness : 530\nBest neighbor   : 570\nDecision        : MOVE to best neighbor\n\nIteration       : 7\nCurrent fitness : 570\nBest neighbor   : 590\nDecision        : MOVE to best neighbor\n\nIteration       : 8\nCurrent fitness : 590\nBest neighbor   : 590\nDecision        : STOP, no improvement\n\nRestart 8 selesai\nFinal fitness   : 590\nIterations      : 8\n\n============================================================\nRESTART 9\n============================================================\nInitial fitness: -1\n\nIteration       : 1\nCurrent fitness : -1\nBest neighbor   : -1\nDecision        : STOP, no improvement\n\nRestart 9 selesai\nFinal fitness   : -1\nIterations      : 1\n\n============================================================\nRESTART 10\n============================================================\nInitial fitness: -1\n\nIteration       : 1\nCurrent fitness : -1\nBest neighbor   : -1\nDecision        : STOP, no improvement\n\nRestart 10 selesai\nFinal fitness   : -1\nIterations      : 1\n\n============================================================\nHASIL AKHIR\n============================================================\nInitial fitness : 310\nFinal fitness   : 590\nRestarts        : 10\nIterations      : 60\nDuration        : 7.308224 seconds\nVehicles loaded : 10\nVehicles outside: 0\n\nKendaraan yang dimuat:\n* Vehicle: x=6, y=16, orientation=Horizontal, fee=60\n* Vehicle: x=0, y=8, orientation=Horizontal, fee=40\n* Vehicle: x=3, y=9, orientation=Horizontal, fee=85\n* Vehicle: x=6, y=2, orientation=Vertical, fee=50\n* Vehicle: x=3, y=14, orientation=Horizontal, fee=95\n* Vehicle: x=2, y=18, orientation=Horizontal, fee=20\n* Vehicle: x=0, y=11, orientation=Horizontal, fee=70\n* Vehicle: x=8, y=9, orientation=Vertical, fee=30\n* Vehicle: x=0, y=3, orientation=Horizontal, fee=75\n* Vehicle: x=8, y=4, orientation=Horizontal, fee=65\n",
+  "error": null,
+  "algorithm": "HC: Random Restart",
+  "group": "Konfigurasi utama",
+  "repeat": 1,
+  "number": 1,
+  "parameters": {
+    "max_restarts": 10,
+    "max_iterations": 300
+  },
+  "output_path": "C:\\Users\\Keisha Sakura\\Documents\\IF3070_G31_Claudia\\output\\random_restart\\eksperimen_2026-10-22_14-17-25\\run_01"
+}

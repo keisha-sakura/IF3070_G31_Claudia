@@ -1,0 +1,295 @@
+{
+  "result": {
+    "initial_state": {
+      "placed_vehicles": [
+        {
+          "id": "2",
+          "Dimensions": {
+            "w": 2,
+            "l": 3
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 40,
+          "Weight": 3,
+          "ETA": 1,
+          "x": 2,
+          "y": 17
+        },
+        {
+          "id": "4",
+          "Dimensions": {
+            "w": 2,
+            "l": 4
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 50,
+          "Weight": 4,
+          "ETA": 5,
+          "x": 0,
+          "y": 12
+        },
+        {
+          "id": "6",
+          "Dimensions": {
+            "w": 1,
+            "l": 2
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 20,
+          "Weight": 2,
+          "ETA": 1,
+          "x": 0,
+          "y": 10
+        },
+        {
+          "id": "8",
+          "Dimensions": {
+            "w": 2,
+            "l": 2
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 30,
+          "Weight": 3,
+          "ETA": 2,
+          "x": 4,
+          "y": 16
+        }
+      ],
+      "outside_vehicles": [
+        {
+          "id": "1",
+          "Dimensions": {
+            "w": 3,
+            "l": 4
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 60,
+          "Weight": 5,
+          "ETA": 3
+        },
+        {
+          "id": "3",
+          "Dimensions": {
+            "w": 4,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 85,
+          "Weight": 8,
+          "ETA": 2
+        },
+        {
+          "id": "5",
+          "Dimensions": {
+            "w": 3,
+            "l": 6
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 95,
+          "Weight": 10,
+          "ETA": 3
+        },
+        {
+          "id": "7",
+          "Dimensions": {
+            "w": 3,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 70,
+          "Weight": 6,
+          "ETA": 4
+        },
+        {
+          "id": "9",
+          "Dimensions": {
+            "w": 4,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 75,
+          "Weight": 7,
+          "ETA": 6
+        },
+        {
+          "id": "10",
+          "Dimensions": {
+            "w": 2,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 65,
+          "Weight": 5,
+          "ETA": 3
+        }
+      ]
+    },
+    "initial_fitness": 140,
+    "final_state": {
+      "placed_vehicles": [
+        {
+          "id": "1",
+          "Dimensions": {
+            "w": 3,
+            "l": 4
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 60,
+          "Weight": 5,
+          "ETA": 3,
+          "x": 3,
+          "y": 11
+        },
+        {
+          "id": "2",
+          "Dimensions": {
+            "w": 2,
+            "l": 3
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 40,
+          "Weight": 3,
+          "ETA": 1,
+          "x": 2,
+          "y": 17
+        },
+        {
+          "id": "3",
+          "Dimensions": {
+            "w": 4,
+            "l": 5
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 85,
+          "Weight": 8,
+          "ETA": 2,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "id": "4",
+          "Dimensions": {
+            "w": 2,
+            "l": 4
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 50,
+          "Weight": 4,
+          "ETA": 5,
+          "x": 0,
+          "y": 12
+        },
+        {
+          "id": "5",
+          "Dimensions": {
+            "w": 3,
+            "l": 6
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 95,
+          "Weight": 10,
+          "ETA": 3,
+          "x": 7,
+          "y": 9
+        },
+        {
+          "id": "6",
+          "Dimensions": {
+            "w": 1,
+            "l": 2
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 20,
+          "Weight": 2,
+          "ETA": 1,
+          "x": 0,
+          "y": 10
+        },
+        {
+          "id": "7",
+          "Dimensions": {
+            "w": 3,
+            "l": 5
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 70,
+          "Weight": 6,
+          "ETA": 4,
+          "x": 1,
+          "y": 6
+        },
+        {
+          "id": "8",
+          "Dimensions": {
+            "w": 2,
+            "l": 2
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 30,
+          "Weight": 3,
+          "ETA": 2,
+          "x": 4,
+          "y": 16
+        },
+        {
+          "id": "9",
+          "Dimensions": {
+            "w": 4,
+            "l": 4
+          },
+          "Orientation": "Horizontal",
+          "ShippingFee": 75,
+          "Weight": 7,
+          "ETA": 6,
+          "x": 2,
+          "y": 0
+        },
+        {
+          "id": "10",
+          "Dimensions": {
+            "w": 2,
+            "l": 5
+          },
+          "Orientation": "Vertical",
+          "ShippingFee": 65,
+          "Weight": 5,
+          "ETA": 3,
+          "x": 2,
+          "y": 14
+        }
+      ],
+      "outside_vehicles": []
+    },
+    "final_fitness": 590,
+    "fitness_list": [
+      140,
+      235,
+      320,
+      395,
+      465,
+      530,
+      590,
+      590
+    ],
+    "duration": 0.859015941619873,
+    "max_iteration": 300,
+    "iterations": 7
+  },
+  "ship": {
+    "Dimensions": {
+      "w": 10,
+      "l": 20
+    },
+    "MaxCapacity": 500
+  },
+  "console": "============================================================\nSTEEPEST ASCENT HILL CLIMBING\n============================================================\nInitial fitness: 140\nMax iterations : 300\n\nIteration       : 1\nCurrent fitness : 140\nBest neighbor   : 235\nDecision        : MOVE to best neighbor\n\nIteration       : 2\nCurrent fitness : 235\nBest neighbor   : 320\nDecision        : MOVE to best neighbor\n\nIteration       : 3\nCurrent fitness : 320\nBest neighbor   : 395\nDecision        : MOVE to best neighbor\n\nIteration       : 4\nCurrent fitness : 395\nBest neighbor   : 465\nDecision        : MOVE to best neighbor\n\nIteration       : 5\nCurrent fitness : 465\nBest neighbor   : 530\nDecision        : MOVE to best neighbor\n\nIteration       : 6\nCurrent fitness : 530\nBest neighbor   : 590\nDecision        : MOVE to best neighbor\n\nIteration       : 7\nCurrent fitness : 590\nBest neighbor   : 590\nDecision        : STOP, no improvement\n\n============================================================\nHASIL AKHIR\n============================================================\nInitial fitness : 140\nFinal fitness   : 590\nIterations      : 7\nDuration        : 0.859016 seconds\nVehicles loaded : 10\nVehicles outside: 0\n\nKendaraan yang dimuat:\n- Vehicle: x=3, y=11, orientation=Vertical, fee=60\n- Vehicle: x=2, y=17, orientation=Horizontal, fee=40\n- Vehicle: x=5, y=4, orientation=Vertical, fee=85\n- Vehicle: x=0, y=12, orientation=Horizontal, fee=50\n- Vehicle: x=7, y=9, orientation=Horizontal, fee=95\n- Vehicle: x=0, y=10, orientation=Horizontal, fee=20\n- Vehicle: x=1, y=6, orientation=Horizontal, fee=70\n- Vehicle: x=4, y=16, orientation=Vertical, fee=30\n- Vehicle: x=2, y=0, orientation=Horizontal, fee=75\n- Vehicle: x=2, y=14, orientation=Vertical, fee=65\n",
+  "error": null,
+  "algorithm": "HC: Steepest Ascent",
+  "group": "Konfigurasi utama",
+  "repeat": 2,
+  "number": 2,
+  "parameters": {
+    "max_iterations": 300
+  },
+  "output_path": "C:\\Users\\Keisha Sakura\\Documents\\IF3070_G31_Claudia\\output\\steepest_ascent\\eksperimen_2026-10-22_14-16-56\\run_02"
+}

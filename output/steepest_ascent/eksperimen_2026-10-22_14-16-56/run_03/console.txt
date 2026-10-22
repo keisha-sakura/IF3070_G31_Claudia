@@ -1,0 +1,67 @@
+============================================================
+STEEPEST ASCENT HILL CLIMBING
+============================================================
+Initial fitness: -1
+Max iterations : 300
+
+Iteration       : 1
+Current fitness : -1
+Best neighbor   : 200
+Decision        : MOVE to best neighbor
+
+Iteration       : 2
+Current fitness : 200
+Best neighbor   : 295
+Decision        : MOVE to best neighbor
+
+Iteration       : 3
+Current fitness : 295
+Best neighbor   : 370
+Decision        : MOVE to best neighbor
+
+Iteration       : 4
+Current fitness : 370
+Best neighbor   : 440
+Decision        : MOVE to best neighbor
+
+Iteration       : 5
+Current fitness : 440
+Best neighbor   : 500
+Decision        : MOVE to best neighbor
+
+Iteration       : 6
+Current fitness : 500
+Best neighbor   : 550
+Decision        : MOVE to best neighbor
+
+Iteration       : 7
+Current fitness : 550
+Best neighbor   : 590
+Decision        : MOVE to best neighbor
+
+Iteration       : 8
+Current fitness : 590
+Best neighbor   : 590
+Decision        : STOP, no improvement
+
+============================================================
+HASIL AKHIR
+============================================================
+Initial fitness : -1
+Final fitness   : 590
+Iterations      : 8
+Duration        : 0.979242 seconds
+Vehicles loaded : 10
+Vehicles outside: 0
+
+Kendaraan yang dimuat:
+- Vehicle: x=1, y=0, orientation=Horizontal, fee=60
+- Vehicle: x=6, y=18, orientation=Vertical, fee=40
+- Vehicle: x=4, y=14, orientation=Vertical, fee=85
+- Vehicle: x=0, y=6, orientation=Horizontal, fee=50
+- Vehicle: x=1, y=11, orientation=Horizontal, fee=95
+- Vehicle: x=2, y=6, orientation=Vertical, fee=20
+- Vehicle: x=5, y=9, orientation=Horizontal, fee=70
+- Vehicle: x=2, y=4, orientation=Vertical, fee=30
+- Vehicle: x=5, y=2, orientation=Horizontal, fee=75
+- Vehicle: x=5, y=7, orientation=Vertical, fee=65
